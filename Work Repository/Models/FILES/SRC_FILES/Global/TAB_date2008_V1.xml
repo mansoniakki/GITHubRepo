@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.09" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="f1KRtpRQq5bT0tEqybxlZQ==" exportKeySalt="0afbdfac-ffe6-4ea3-91c6-bfb2ab721e33" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="HQjVsY/zqMZkrU4noSSGew==" exportKeySalt="bd841695-9ea6-4d61-8d69-10e6dcc5055f" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTable">
 		<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FileDecSep" type="java.lang.String">null</Field>
@@ -29,7 +29,7 @@
 	<Field name="IndShow" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndWs" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="InputFormat" type="java.lang.String">null</Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
 	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[11]]></Field>
 	<Field name="IScBaseTable" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IScOrigTable" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -40,7 +40,7 @@
 	<Field name="ITxtDesc" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="ITxtWsdl" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="JrnOrder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2020-03-24 17:52:10.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2021-01-25 23:11:31.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="OlapType" type="java.lang.String">null</Field>
 	<Field name="OutputFormat" type="java.lang.String">null</Field>
@@ -55,7 +55,7 @@
 	<Field name="StorageProp" type="java.lang.String">null</Field>
 	<Field name="SubPartitionMeth" type="java.lang.String">null</Field>
 	<Field name="TableAlias" type="java.lang.String"><![CDATA[DAT]]></Field>
-	<Field name="TableName" type="java.lang.String"><![CDATA[date2008]]></Field>
+	<Field name="TableName" type="java.lang.String"><![CDATA[date2008_V1]]></Field>
 	<Field name="TableProp" type="java.lang.String">null</Field>
 	<Field name="TableType" type="java.lang.String"><![CDATA[T]]></Field>
 	<Field name="WsEntityName" type="java.lang.String"><![CDATA[Date2008]]></Field>
@@ -423,9 +423,9 @@
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TABLE.13]]></Field>
 	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[9793a6b0-0c95-475a-986a-2e1c97978566]]></Field>
- <Field name="RefObjFQName" type="java.lang.String"><![CDATA[FILES.SRC_FILES.Global.date2008]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[FILES.SRC_FILES.Global.date2008_V1]]></Field>
  <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_MODFOLDER.SNP_MODEL.SNP_SUBMODEL.SNP_TABLE]]></Field>
- <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5.9.6.8]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[5.9.6.11]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpImportRep">
 		<Field name="GlobalId" type="java.lang.String"><![CDATA[72a83505-b350-4d9d-8257-2677f3f8498f]]></Field>
